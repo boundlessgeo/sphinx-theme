@@ -17,8 +17,16 @@ Themes based on read the docs are distributed under MIT license:
 
 Themes based on hieroglyph slides are distributed under BSD style license:
 
-.. literalinclude:: /../../learning_slides/LICENSE.txt
-   :language: text
+.. ifslides::
+   
+   .. code-block:: text
+      
+      Copyright (c) 2012-2017, Nathan Yergler
+
+.. ifnotslides::
+
+   .. literalinclude:: /../../learning_slides/LICENSE.txt
+      :language: text
 
 Before you Start
 ----------------

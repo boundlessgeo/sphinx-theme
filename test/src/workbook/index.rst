@@ -7,7 +7,7 @@ Workbook
 ..
 
 .. slideconf::
-   :theme: slides
+   :theme: learning_slides
    :autoslides: True
 
 Workbook style guidelines and sphinx formatting examples for the creation of training materials.
