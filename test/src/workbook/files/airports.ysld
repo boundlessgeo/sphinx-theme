@@ -1,0 +1,5 @@
+point:
+  symbols:
+  - external:
+      url: airport.svg
+      format: image/svg

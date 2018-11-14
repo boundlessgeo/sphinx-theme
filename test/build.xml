@@ -1,0 +1,108 @@
+<project name="example" default="learning"
+ xmlns:if="ant:if"
+ xmlns:unless="ant:unless"
+>
+  <!-- (c) Boundless -->
+  <property name="build" value="${basedir}/build"/>
+  <property name="themes" value="../themes"/>
+  
+  <target name="clean" description="cleans up build directory">
+    <echo>Cleaning up ${build}...</echo>
+    <delete dir="${build}"/>
+  </target>
+
+  <target name="init">
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="learning" depends="init"
+          description="Test learning_rtd_theme">
+    <echo>Building test for learning_rtd_theme...</echo>
+    <antcall target="sphinx">
+        <param name="tags" value="-t instructor"/>
+        <param name="builder" value="html"/>
+        <param name="theme" value="learning_rtd_theme"/>
+        <param name="outdir" value="${build}/html/"/>
+    </antcall>
+    <antcall target="open">
+        <param name="file" value="${build}/html/index.html"/>
+    </antcall>
+  </target>
+
+  <target name="slides" depends="init"
+          description="Test learning_slides">
+    <echo>Building test for learning_slides...</echo>
+    <antcall target="sphinx">
+        <param name="tags" value=""/>
+        <param name="builder" value="slides"/>
+        <param name="theme" value="slides"/>
+        <param name="outdir" value="${build}/slides/"/>
+    </antcall>
+    <antcall target="open">
+        <param name="file" value="${build}/slides/index.html"/>
+    </antcall>
+  </target>
+
+  <target name="server" depends="init"
+          description="Test server_rtd_theme">
+    <echo>Building test for server_rtd_theme...</echo>
+    <antcall target="sphinx">
+        <param name="tags" value=""/>
+        <param name="builder" value="html"/>
+        <param name="theme" value="server_rtd_theme"/>
+        <param name="outdir" value="${build}/server/"/>
+    </antcall>
+    <antcall target="open">
+        <param name="file" value="${build}/server/index.html"/>
+    </antcall>
+  </target>
+
+  <!--                                                -->
+  <!-- EXECUTABLES                                    -->
+  <!--                                                -->
+
+  <!-- sphinx-build -->  
+  <target name="sphinx" depends="init">
+    <echo>Building sphinx materials...</echo>
+    <exec executable="sphinx-build" failonerror="true">
+      <arg line="${tags}"/>
+      <arg line="-W"/>
+      <arg line="-b ${builder}"/>
+      <arg line="-Dhtml_theme=${theme}"/>
+      <arg path="${basedir}/src"/>
+      <arg path="${outdir}"/>
+    </exec>
+  </target>
+  
+  <!-- Used to display generated file at end of task -->
+  <target name="open">
+    <echo>File exists in ${file}</echo>
+    
+    <!-- mac -->
+    <available file="/usr/bin/open" type="file"
+          property="open.present"/>
+    <exec executable="open" if:set="open.present">
+       <arg line="${file}"/>
+    </exec>
+    
+    <!-- linux -->
+    <!--
+    <available file="/usr/bin/xdg-open" type="file"
+          property="xdg-open.present"/>
+    <exec executable="xdg-open" if:set="xdg-open.present">
+       <arg line="${file}"/>
+    </exec>
+    -->
+    
+    <!-- windows -->
+    <condition property="cmd.present" value="true">
+       <os family="windows" />
+    </condition>
+    <exec executable="cmd" if:set="cmd.present"
+       spawn="yes">
+        <arg value="/c" />
+        <arg value="${file}" />
+    </exec>
+  </target>
+  
+</project>

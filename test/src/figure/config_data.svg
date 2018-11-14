@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="592px" height="466px" viewBox="0 0 592 466" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>config_data</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A2B9A1" offset="0%"></stop>
+            <stop stop-color="#5E6F5E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#87BF84" offset="0%"></stop>
+            <stop stop-color="#246D29" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#EFEFEF" offset="0%"></stop>
+            <stop stop-color="#A8A8A8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="16.2272135%" x2="50%" y2="87.3697917%" id="linearGradient-4">
+            <stop stop-color="#8FB1DF" offset="0%"></stop>
+            <stop stop-color="#A5C1E7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="93.6974159%" y1="100%" x2="0%" y2="0%" id="linearGradient-5">
+            <stop stop-color="#FDF4D4" offset="0%"></stop>
+            <stop stop-color="#F4D443" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="-18.4291295%" x2="88.5608856%" y2="77.4563162%" id="linearGradient-6">
+            <stop stop-color="#FDF4D4" offset="0%"></stop>
+            <stop stop-color="#F4D443" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="15.4703776%" y1="15.1757812%" x2="85.530599%" y2="80.7324219%" id="linearGradient-7">
+            <stop stop-color="#A2C2EB" offset="0%"></stop>
+            <stop stop-color="#84A5E0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="75.0336734%" y1="21.4285714%" x2="50%" y2="50%" id="linearGradient-8">
+            <stop stop-color="#E6E6E6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,0 L0,302 L104,302 L104,0 L0,0 Z" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="104" height="302" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+    </defs>
+    <g id="config_data" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle" transform="translate(146.000000, 15.000000)" fill="#7FB5D4" fill-opacity="0.319859601" stroke="#7FB5D4">
+            <rect x="0.5" y="0.5" width="423" height="416"></rect>
+        </g>
+        <g id="WMS" transform="translate(236.000000, 46.000000)">
+            <g id="inner-rectangle" transform="translate(2.000000, 0.000000)" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="59" height="37"></rect>
+            </g>
+            <text font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="15.054" y="24">WMS</tspan>
+            </text>
+        </g>
+        <g id="WFS" transform="translate(308.000000, 46.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="59" height="37"></rect>
+            </g>
+            <text font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="16.36" y="25">WFS</tspan>
+            </text>
+        </g>
+        <g id="WPS" transform="translate(378.000000, 46.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="59" height="37"></rect>
+            </g>
+            <text id="WCS" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="15.625" y="25">WCS</tspan>
+            </text>
+        </g>
+        <text id="USGS" font-family="ProximaNova-Light, Proxima Nova" font-size="12" font-weight="300" fill="#000000">
+            <tspan x="298.456" y="36">web services</tspan>
+        </text>
+        <g id="geoserver_mark" transform="translate(160.000000, 26.000000)" fill="#215F7B">
+            <g id="GeoServer-Suite">
+                <path d="M33.58962,65.644 C33.57712,65.644 33.56462,65.643 33.55462,65.643 C33.56462,65.643 33.57712,65.644 33.58962,65.644 L33.59562,65.644 C36.98937,65.644 40.40187,64.3515 42.98937,61.7665 C40.40187,64.3515 36.98937,65.644 33.59562,65.644 L33.58962,65.644 L33.58962,65.644 L33.58962,65.644 L33.58962,65.644 Z M61.24338,32.98775 C59.33463,32.519 59.55962,31.374 60.23712,31.3115 C60.91712,31.249 63.49837,31.964 63.50837,32.6615 C63.51437,33.359 62.68462,33.34025 61.24338,32.98775 L61.24338,32.98775 Z M45.15837,41.159 C44.79088,44.75775 47.12587,46.03275 42.43213,52.569 C37.74338,59.10525 33.46587,50.0915 35.40212,46.3965 C37.33962,42.69775 33.82462,38.96025 29.97087,38.56775 C26.11587,38.1715 26.90837,31.21025 31.87337,27.59275 C35.24087,25.139 42.26837,26.23775 42.99962,29.25025 C43.57587,31.61025 47.77837,30.339 48.85962,31.6665 C49.94087,32.9965 45.52837,37.5615 45.15837,41.159 L45.15837,41.159 Z M37.73337,15.20275 C38.41212,15.50025 39.34712,16.839 38.15587,16.99775 C36.96587,17.15775 36.29962,16.774 35.69962,16.0365 C34.89963,15.05775 37.05712,14.90775 37.73338,15.20275 L37.73337,15.20275 Z M65.86088,29.56275 C65.18212,29.719 61.98587,32.2515 60.04712,30.159 C55.82587,25.60525 51.67838,26.99025 53.22462,28.139 C54.43587,29.03775 54.10837,31.4865 52.15712,32.01775 C49.80837,32.654 47.51337,30.0515 47.51337,27.384 C47.51337,22.37275 44.48838,21.43525 43.50963,20.58525 C42.37588,19.60275 40.96213,21.4665 41.09963,21.9615 C41.58713,23.714 36.96213,26.299 35.49838,24.83525 C32.54838,21.884 39.74713,22.154 35.49838,20.239 C33.90588,19.52275 40.66963,17.08025 41.81713,15.93025 C42.96588,14.78275 40.66963,13.92025 40.95588,11.62275 C41.07213,10.68275 43.38588,7.764 46.34712,7.45525 L42.98963,4.0965 C42.72713,3.834 42.44588,3.5915 42.16588,3.35525 C41.60588,6.7815 36.56337,9.30775 34.67088,8.48275 C32.58088,7.569 36.65338,3.95275 32.25338,4.519 C29.51713,4.87025 29.31838,2.61025 29.55963,0.8515 C27.59588,1.47025 25.74588,2.54775 24.19588,4.0965 L20.67838,7.61775 C22.85338,7.60775 25.99713,7.909 25.99713,9.7365 C25.99713,12.53025 21.92463,12.99525 21.92463,16.60275 C21.92463,20.21025 31.23338,19.16275 24.77338,23.06025 C18.31588,26.959 25.87963,30.21525 23.08713,33.009 C20.17088,35.924 20.99463,28.23775 18.54963,29.28525 C16.10588,30.33275 13.77713,32.659 16.10588,33.8215 C18.43338,34.9865 27.85713,38.9415 22.38838,42.8965 C17.60588,46.359 14.00088,48.08775 13.17088,50.7415 L10.15213,47.724 C10.52588,46.46775 10.91588,44.37025 9.79088,43.24775 C8.11963,41.57775 8.31088,37.1965 10.86963,34.63775 C13.43088,32.07775 12.03338,28.12025 9.47338,28.12025 C7.42463,28.12025 3.84838,27.629 3.77088,24.64775 C1.84713,27.05525 0.87837,29.9915 0.87837,32.92025 C0.87837,36.319 2.16587,39.739 4.75713,42.32775 L24.19587,61.7665 C25.11088,62.6815 26.13212,63.4265 27.21962,64.01775 C32.11338,62.4765 41.83463,59.6015 44.62712,60.124 L42.98962,61.7665 L57.16837,47.58525 C55.14087,45.31775 52.10962,47.60145 49.25963,46.84025 C46.23087,46.034 49.86338,40.184 55.11087,38.369 C59.78462,36.75025 61.41462,40.26025 62.42712,42.32775 L57.16837,47.58525 L62.42712,42.32775 C65.01462,39.739 66.30588,36.324 66.30588,32.9265 C66.30588,31.79525 66.14963,30.6665 65.86088,29.56275 L65.86088,29.56275 Z M33.58713,0.219 L33.58713,0.219 L33.59313,0.219 L33.58713,0.219 L33.58713,0.219 Z" id="path22"></path>
+                <path d="M33.592,0.21925 L33.592,0.21925 C30.03325,0.21925 26.69575,1.59675 24.19575,4.09675 L4.7545,23.5355 C-0.42425,28.7155 -0.42425,37.14675 4.7545,42.328 L24.19575,61.76675 C26.69575,64.26675 30.03325,65.64425 33.592,65.64425 C37.1495,65.64425 40.487,64.26675 42.9895,61.76675 L62.427,42.328 C67.60825,37.14675 67.60825,28.718 62.427,23.538 L42.9895,4.09675 C40.487,1.59675 37.1495,0.21925 33.592,0.21925 M33.592,1.83425 C36.58575,1.83325 39.57575,2.968 41.847,5.238 L61.2845,24.67925 C65.82575,29.218 65.82575,36.64425 61.2845,41.18425 L41.847,60.62675 C39.57575,62.8955 36.58575,64.0305 33.592,64.0305 C30.59825,64.0305 27.607,62.89425 25.337,60.62675 L5.89825,41.18425 C1.357,36.64675 1.357,29.218 5.89625,24.67925 L25.337,5.238 C27.607,2.96925 30.60075,1.83425 33.592,1.83425" id="path26"></path>
+            </g>
+        </g>
+        <g id="Groups-Category" transform="translate(12.000000, 160.000000)">
+            <text id="Groups" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="22.079" y="14">Groups</tspan>
+            </text>
+            <g id="group_icon">
+                <rect id="Rectangle-49-copy" stroke="#CCD2CD" fill="#F7F7F7" x="0" y="0" width="11" height="9"></rect>
+                <rect id="Rectangle-49" stroke="url(#linearGradient-1)" fill-opacity="0.8" fill="#BFC6BE" x="2" y="3" width="11" height="9"></rect>
+                <rect id="Rectangle-49-copy" stroke="url(#linearGradient-2)" fill-opacity="0.8" fill="#77A474" x="4" y="6" width="11" height="9"></rect>
+            </g>
+        </g>
+        <g id="Stores-Category" transform="translate(13.000000, 416.000000)">
+            <text id="Stores" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="19.449" y="14">Stores</tspan>
+            </text>
+            <g id="store_icon" transform="translate(0.000000, 1.000000)">
+                <g>
+                    <path d="M5.5,-0.5 C8.00145398,-0.5 9.64633048,-0.107443684 10.6035702,0.57790347 C11.2566567,1.04548859 11.5,1.56816215 11.5,1.96889529 L11.5,12.7932328 C11.5,13.2104715 11.272129,13.7682012 10.6398667,14.2840363 C9.68086874,15.0664405 8.02132465,15.5111217 5.49775515,15.4997915 C2.99502934,15.4885549 1.33963241,15.0162595 0.376046484,14.2030239 C-0.269572563,13.6581422 -0.5,13.0747222 -0.5,12.6418445 L-0.5,1.96889529 C-0.5,1.56816215 -0.256656721,1.04548859 0.396429849,0.57790347 C1.35366952,-0.107443684 2.99854602,-0.5 5.5,-0.5 Z" id="Path-109" stroke="#A1A1A1" fill="#FFFFFF"></path>
+                    <path d="M0.5,4.58115826 L0.5,12.8284369 C0.5,12.9536793 0.611293058,13.2131661 1.00535571,13.5194267 C1.76786127,14.1120366 3.20771444,14.4903309 5.50206723,14.4998169 C7.82019873,14.5094012 9.26719259,14.1523532 10.0234553,13.5841728 C10.2513773,13.412935 10.3874939,13.2424942 10.4584373,13.0825948 C10.4919315,13.0071022 10.5,12.9646692 10.5,12.9678464 L10.5,4.58115826 C9.52388077,5.28828285 7.90479199,5.69169751 5.5,5.69169751 C3.09520801,5.69169751 1.47611923,5.28828285 0.5,4.58115826 Z" id="Path-109-copy" stroke="#EAEAEA" fill="url(#linearGradient-3)"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Styles-Category" transform="translate(12.000000, 374.000000)">
+            <text id="Styles" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="20.758" y="14">Styles</tspan>
+            </text>
+            <g id="style_icon" transform="translate(0.000000, 2.000000)">
+                <path d="M1.1015625,3.15234384 C0.0933394533,4.58832168 -0.205078125,8.77636719 -0.205078125,8.77636719 L3.5078125,9.02636719 L5.47167969,12.341797 L8.05517578,12.341797 L13.4116211,9.02636728 L13.4116211,2.50878916 C13.4116211,2.50878916 11.7007698,0.610949042 10.5810547,-0.0849609375 C9.33651193,-0.858451873 5.47167969,-0.0849609343 5.47167969,-0.0849609343 C5.47167969,-0.0849609343 2.16723277,1.63454569 1.1015625,3.15234384 Z" id="Path-228" stroke="#B1792C" fill="#F4D7BD"></path>
+                <path d="M2.5,7 C3.32842717,7 4,6.32842717 4,5.5 C4,4.67157283 3.32842717,4 2.5,4 C1.67157283,4 1,4.67157283 1,5.5 C1,6.32842717 1.67157283,7 2.5,7 Z" id="Oval-55-copy" fill="#F86660"></path>
+                <path d="M8.5,4 C9.32842717,4 10,3.32842717 10,2.5 C10,1.67157283 9.32842717,1 8.5,1 C7.67157283,1 7,1.67157283 7,2.5 C7,3.32842717 7.67157283,4 8.5,4 Z" id="Oval-55-copy-2" fill="#FFDB4E"></path>
+                <path d="M5.5,4 C6.32842717,4 7,3.32842717 7,2.5 C7,1.67157283 6.32842717,1 5.5,1 C4.67157283,1 4,1.67157283 4,2.5 C4,3.32842717 4.67157283,4 5.5,4 Z" id="Oval-55-copy-3" stroke="#FFB545" fill="#FFCC84"></path>
+                <path d="M10.5,7 C11.3284272,7 12,6.32842717 12,5.5 C12,4.67157283 11.3284272,4 10.5,4 C9.67157283,4 9,4.67157283 9,5.5 C9,6.32842717 9.67157283,7 10.5,7 Z" id="Oval-55-copy-4" stroke="#8EC357" fill="#A7D17A"></path>
+                <path d="M9.5,10 C10.3284272,10 11,9.32842717 11,8.5 C11,7.67157283 10.3284272,7 9.5,7 C8.67157283,7 8,7.67157283 8,8.5 C8,9.32842717 8.67157283,10 9.5,10 Z" id="Oval-55-copy-5" stroke="#31A8BA" fill="#6BC2CF"></path>
+                <path d="M7.5,12 C8.32842717,12 9,11.3284272 9,10.5 C9,9.67157283 8.32842717,9 7.5,9 C6.67157283,9 6,9.67157283 6,10.5 C6,11.3284272 6.67157283,12 7.5,12 Z" id="Oval-55-copy-6" stroke="#EAA97C" fill="#E9A36E"></path>
+                <path d="M5.5,8 C6.32842717,8 7,7.32842717 7,6.5 C7,5.67157283 6.32842717,5 5.5,5 C4.67157283,5 4,5.67157283 4,6.5 C4,7.32842717 4.67157283,8 5.5,8 Z" id="Oval-55" stroke="#B27A2F" fill="#FFFFFF"></path>
+            </g>
+        </g>
+        <g id="Layers-Category" transform="translate(12.000000, 202.000000)">
+            <text id="Layers" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="22.015" y="14">Layers</tspan>
+            </text>
+            <g id="Layer" transform="translate(0.000000, 2.000000)">
+                <rect id="Edge" stroke="#A4B7D5" fill="#FFFFFF" x="0.5" y="0.5" width="13" height="13"></rect>
+                <rect id="Rectangle-49" fill="url(#linearGradient-4)" x="2" y="2" width="10" height="10"></rect>
+            </g>
+        </g>
+        <g id="Raster-Layer" transform="translate(175.000000, 196.000000)">
+            <path d="M55.262633,0.5 C47.5611844,0.500000323 47.5611844,0.500000323 39.1254171,0.500000445 C25.6509255,0.500000483 25.6509255,0.500000483 15.1690288,0.500000327 C9.38956334,0.500000212 9.38956334,0.500000212 7.99838453,0.500000174 C3.85778925,0.500000084 0.5,3.85738478 0.5,7.99609797 L0.5,17.003902 C0.5,21.1431096 3.85816779,24.5 7.99767944,24.5 L64.0023206,24.5 C68.1425166,24.5 71.5,21.1426251 71.5,17.003902 L71.5,7.99609797 C71.5,3.85651445 68.143264,0.5 64.0041537,0.5 L55.262633,0.5 Z" id="Rectangle-48" stroke="#979797" fill="#FFFFFF"></path>
+            <text id="dem" font-family="Cantarell-Regular, Cantarell" font-size="12" font-weight="normal" fill="#000000">
+                <tspan x="22" y="17">dem</tspan>
+            </text>
+            <g id="raster" transform="translate(8.000000, 7.000000)">
+                <rect id="Rectangle-49" stroke="#797DB7" stroke-width="0.5" fill="#D8D8D8" x="0" y="0" width="12" height="10"></rect>
+                <rect id="Rectangle-48" fill="#5D74BC" x="0" y="0" width="3" height="2.5"></rect>
+                <rect id="Rectangle-48-copy" fill="#5D74BC" x="3" y="2.5" width="3" height="2.5"></rect>
+                <rect id="Rectangle-48-copy-2" fill="#5D74BC" x="0" y="5" width="3" height="2.5"></rect>
+                <rect id="Rectangle-48-copy-3" fill="#5D74BC" x="3" y="7.5" width="3" height="2.5"></rect>
+                <rect id="Rectangle-48-copy" fill="#5D74BC" x="6" y="0" width="3" height="2.5"></rect>
+                <rect id="Rectangle-48-copy-2" fill="#5D74BC" x="9" y="2.5" width="3" height="2.5"></rect>
+                <rect id="Rectangle-48-copy-3" fill="#5D74BC" x="6" y="5" width="3" height="2.5"></rect>
+                <rect id="Rectangle-48-copy-4" fill="#5D74BC" x="9" y="7.5" width="3" height="2.5"></rect>
+            </g>
+        </g>
+        <g id="Folder-copy-+-Workspace-+-}" transform="translate(12.000000, 122.000000)">
+            <text id="Workspaces" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="21.064" y="14">Workspaces</tspan>
+            </text>
+            <g id="Workspace" transform="translate(0.000000, 4.000000)">
+                <g>
+                    <path d="M0.5,0.5 L0.5,10.5 L12.5,10.5 L12.5,1.36425781 L7.62060547,1.36425781 L7.4748295,1.34253531 L4.7105489,0.5 L0.5,0.5 Z" id="Path-86" stroke="#FEFCF3" fill="url(#linearGradient-5)"></path>
+                    <path d="M0.5,4.74640376 L0.5,11.5 L12.5,11.5 L12.5,3.5 L7.36394077,3.5 L5.08122592,4.74640376 L0.5,4.74640376 Z" id="Path" stroke-opacity="0.9" stroke="#FFFFFE" fill="url(#linearGradient-6)"></path>
+                    <path d="M7.63216183,0.424804688 L13.5,0.424804688 L13.5,11.5 L-0.5,11.5 L-0.5,-0.5 L4.78505535,-0.5 L4.94361605,-0.474192477 L7.63216183,0.424804687 Z" id="Path-copy-2" stroke="#D99848"></path>
+                </g>
+            </g>
+        </g>
+        <text id="Administration" font-family="ProximaNova-Semibold, Proxima Nova" font-size="16" font-weight="500" fill="#215F7B">
+            <tspan x="13" y="63">Administration</tspan>
+        </text>
+        <path d="M33.5,149.5 L137.5,149.5" id="Line-copy-2" stroke="#979797" stroke-linecap="square"></path>
+        <path d="M33.5,190.5 L137.5,190.5" id="Line-copy-3" stroke="#979797" stroke-linecap="square"></path>
+        <path d="M33.5,359.5 L137.5,359.5" id="Line-copy-4" stroke="#979797" stroke-linecap="square"></path>
+        <path d="M33.5,405.5 L137.5,405.5" id="Line-copy-5" stroke="#979797" stroke-linecap="square"></path>
+        <path d="M145.000421,436.531802 L145.933365,358 L569.951784,358 C569.951784,358 570.060278,411.97598 569.951772,438.732298 C569.93997,441.642646 569.70292,443.258545 568.321129,444.595376 C566.939338,445.932206 563.152287,446.999998 561.40601,446.999998 L153.458374,446.999998 C153.458374,446.999998 150.48159,447.017596 147.692074,443.565082 C144.902558,440.112568 145.000421,436.531802 145.000421,436.531802 Z" id="Path-229" fill="#215F7B"></path>
+        <g id="workspace-usgs-copy" transform="translate(168.000000, 122.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="88" height="299"></rect>
+            </g>
+            <g id="Folder" transform="translate(5.000000, 6.000000)">
+                <path d="M0.5,0.5 L0.5,10.5 L12.5,10.5 L12.5,1.36425781 L7.62060547,1.36425781 L7.4748295,1.34253531 L4.7105489,0.5 L0.5,0.5 Z" id="Path-86" stroke="#FEFCF3" fill="url(#linearGradient-5)"></path>
+                <path d="M0.5,4.80908203 L0.5,11.5 L12.5,11.5 L12.5,3.57275391 L7.36303407,3.57275391 L5.08031922,4.80908203 L0.5,4.80908203 Z" id="Path" stroke-opacity="0.9" stroke="#FFFFFE" fill="url(#linearGradient-6)"></path>
+                <path d="M7.63216183,0.424804688 L13.5,0.424804688 L13.5,11.5 L-0.5,11.5 L-0.5,-0.5 L4.78505535,-0.5 L4.94361605,-0.474192477 L7.63216183,0.424804687 Z" id="Path-copy-2" stroke="#D99848"></path>
+            </g>
+            <text id="usgs" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="24.108" y="17">usgs</tspan>
+            </text>
+        </g>
+        <g id="workspace-ne-copy" transform="translate(274.000000, 122.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="166" height="301"></rect>
+            </g>
+            <text id="ne" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="26.695" y="17">ne</tspan>
+            </text>
+            <g id="Workspace" transform="translate(11.000000, 6.000000)">
+                <g>
+                    <path d="M0.5,0.5 L0.5,10.5 L12.5,10.5 L12.5,1.36425781 L7.62060547,1.36425781 L7.4748295,1.34253531 L4.7105489,0.5 L0.5,0.5 Z" id="Path-86" stroke="#FEFCF3" fill="url(#linearGradient-5)"></path>
+                    <path d="M0.5,4.74640376 L0.5,11.5 L12.5,11.5 L12.5,3.5 L7.36394077,3.5 L5.08122592,4.74640376 L0.5,4.74640376 Z" id="Path" stroke-opacity="0.9" stroke="#FFFFFE" fill="url(#linearGradient-6)"></path>
+                    <path d="M7.63216183,0.424804688 L13.5,0.424804688 L13.5,11.5 L-0.5,11.5 L-0.5,-0.5 L4.78505535,-0.5 L4.94361605,-0.474192477 L7.63216183,0.424804687 Z" id="Path-copy-2" stroke="#D99848"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Raster-Layer" transform="translate(293.000000, 313.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="128" height="37"></rect>
+            </g>
+            <text id="ne1" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="22.322" y="23">ne1</tspan>
+            </text>
+            <g id="raster" transform="translate(7.000000, 15.000000)">
+                <g>
+                    <rect id="Rectangle-49" stroke="#5D74BC" fill="#D8D8D8" x="0" y="0" width="12" height="10"></rect>
+                    <rect id="Rectangle-48" fill="#5D74BC" x="0" y="0" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy" fill="#5D74BC" x="3" y="2.5" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy-2" fill="#5D74BC" x="0" y="5" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy-3" fill="#5D74BC" x="3" y="7.5" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy" fill="#5D74BC" x="6" y="0" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy-2" fill="#5D74BC" x="9" y="2.5" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy-3" fill="#5D74BC" x="6" y="5" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy-4" fill="#5D74BC" x="9" y="7.5" width="3" height="2.5"></rect>
+                </g>
+            </g>
+        </g>
+        <g id="state_provinces" transform="translate(295.000000, 196.000000)">
+            <path d="M95.1745346,0.5 C79.8477074,0.500000366 79.8477074,0.500000366 62.3895631,0.500000467 C40.237754,0.500000457 40.237754,0.500000457 22.439875,0.500000294 C16.2514047,0.500000226 16.2514047,0.500000226 11.9297479,0.500000168 C8.70376458,0.500000123 8.70376458,0.500000123 7.99366125,0.500000111 C3.85798772,0.500000054 0.5,3.86106964 0.5,7.99527533 L0.5,18.0047247 C0.5,22.1447013 3.85394321,25.5 7.99285532,25.5 L116.007145,25.5 C120.142362,25.5 123.5,22.1389416 123.5,18.0047247 L123.5,7.99527533 C123.5,3.85237254 120.148514,0.5 116.000147,0.5 L95.1745346,0.5 Z" id="Rectangle-48" stroke="#979797" fill="#FFFFFF"></path>
+            <text font-family="Cantarell-Regular, Cantarell" font-size="12" font-weight="normal" fill="#000000">
+                <tspan x="21" y="17">state_provinces</tspan>
+            </text>
+            <g id="Polygon" transform="translate(3.000000, 6.000000)" stroke="#5D74BC">
+                <rect id="Rectangle-49" stroke-width="1.5" fill="url(#linearGradient-7)" x="1" y="1" width="12" height="10"></rect>
+                <circle id="Oval-1-copy-3" fill="#27A4F1" cx="12.5" cy="10.5" r="1"></circle>
+                <circle id="Oval-1-copy-4" fill="#27A4F1" cx="12.5" cy="1.5" r="1"></circle>
+                <circle id="Oval-1-copy-5" fill="#27A4F1" cx="1.5" cy="1.5" r="1"></circle>
+                <circle id="Oval-1-copy-6" fill="#90B0E3" cx="1.5" cy="10.5" r="1"></circle>
+            </g>
+        </g>
+        <g id="boundary_lines" transform="translate(293.000000, 230.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="128" height="37"></rect>
+            </g>
+            <text font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="24.386" y="24">boundary_line</tspan>
+                <tspan x="65.245" y="41">s</tspan>
+            </text>
+            <g id="LineString" transform="translate(6.000000, 14.000000)" stroke="#5D74BC">
+                <g>
+                    <polyline id="Path-70" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="1.40429688 1.09863281 1.40429688 11.1132812 10.5166016 1.09863281 10.5166016 11.1132812"></polyline>
+                    <circle id="Oval-1" fill="#27A4F1" cx="1.5" cy="1.5" r="1"></circle>
+                    <circle id="Oval-1-copy" fill="#27A4F1" cx="1.5" cy="10.5" r="1"></circle>
+                    <circle id="Oval-1-copy-2" fill="#27A4F1" cx="10.5" cy="1.5" r="1"></circle>
+                    <circle id="Oval-1-copy-3" fill="#27A4F1" cx="10.5" cy="10.5" r="1"></circle>
+                </g>
+            </g>
+        </g>
+        <g id="populated_places" transform="translate(293.000000, 272.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="128" height="37"></rect>
+            </g>
+            <text font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="18.2" y="23">populated_place</tspan>
+                <tspan x="66.745" y="40">s</tspan>
+            </text>
+            <g id="Point" transform="translate(10.000000, 18.000000)" fill="#95B5E6" stroke="#5D74BC">
+                <circle cx="2" cy="2" r="2"></circle>
+            </g>
+        </g>
+        <g id="state_provinces-copy" transform="translate(295.000000, 158.000000)">
+            <path d="M93.6394615,0.5 C78.6028466,0.500000366 78.6028466,0.500000366 61.4908403,0.500000467 C39.6760805,0.500000458 39.6760805,0.500000458 22.1611236,0.500000295 C16.0931459,0.500000227 16.0931459,0.500000227 11.85643,0.50000017 C8.69411554,0.500000124 8.69411554,0.500000124 7.99814448,0.500000113 C3.85993374,0.500000054 0.5,3.86113236 0.5,7.99527533 L0.5,18.0047247 C0.5,22.1436559 3.86070402,25.5 8.00476074,25.5 L113.995239,25.5 C118.137194,25.5 121.5,22.1387751 121.5,18.0047247 L121.5,7.99527533 C121.5,3.85659015 118.141999,0.5 114.002952,0.5 L93.6394614,0.5 Z" id="Rectangle-48" stroke="#969696" fill="#FFFFFF"></path>
+            <text id="basemap" font-family="Cantarell-Regular, Cantarell" font-size="12" font-weight="normal" fill="#000000">
+                <tspan x="21" y="18">basemap</tspan>
+            </text>
+            <g id="group_icon" transform="translate(4.000000, 6.000000)">
+                <rect id="Rectangle-49-copy" stroke="#CCD2CD" fill="#F7F7F7" x="0" y="0" width="11" height="9"></rect>
+                <rect id="Rectangle-49" stroke="url(#linearGradient-1)" fill-opacity="0.8" fill="#BFC6BE" x="2" y="3" width="11" height="9"></rect>
+                <rect id="Rectangle-49-copy" stroke="url(#linearGradient-2)" fill-opacity="0.8" fill="#77A474" x="4" y="6" width="11" height="9"></rect>
+            </g>
+        </g>
+        <g id="Raster-Layer-copy" transform="translate(175.000000, 190.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="71" height="37"></rect>
+            </g>
+            <text id="dem" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="26.034" y="22">de</tspan>
+                <tspan x="28.344" y="39">m</tspan>
+            </text>
+            <g id="raster" transform="translate(10.000000, 13.000000)">
+                <g>
+                    <rect id="Rectangle-49" stroke="#5D74BC" fill="#D8D8D8" x="0" y="0" width="12" height="10"></rect>
+                    <rect id="Rectangle-48" fill="#5D74BC" x="0" y="0" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy" fill="#5D74BC" x="3" y="2.5" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy-2" fill="#5D74BC" x="0" y="5" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy-3" fill="#5D74BC" x="3" y="7.5" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy" fill="#5D74BC" x="6" y="0" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy-2" fill="#5D74BC" x="9" y="2.5" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy-3" fill="#5D74BC" x="6" y="5" width="3" height="2.5"></rect>
+                    <rect id="Rectangle-48-copy-4" fill="#5D74BC" x="9" y="7.5" width="3" height="2.5"></rect>
+                </g>
+            </g>
+        </g>
+        <g id="state_provinces-copy" transform="translate(293.000000, 188.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="128" height="37"></rect>
+            </g>
+            <text id="state_provinces" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="26.444" y="23">state_province</tspan>
+                <tspan x="68.745" y="40">s</tspan>
+            </text>
+            <g id="Polygon" transform="translate(10.000000, 14.000000)" stroke="#5D74BC">
+                <g>
+                    <rect id="Rectangle-49" stroke-width="1.5" fill="url(#linearGradient-7)" x="1" y="1" width="12" height="10"></rect>
+                    <circle id="Oval-1-copy-3" fill="#27A4F1" cx="12.5" cy="10.5" r="1"></circle>
+                    <circle id="Oval-1-copy-4" fill="#27A4F1" cx="12.5" cy="1.5" r="1"></circle>
+                    <circle id="Oval-1-copy-5" fill="#27A4F1" cx="1.5" cy="1.5" r="1"></circle>
+                    <circle id="Oval-1-copy-6" fill="#90B0E3" cx="1.5" cy="10.5" r="1"></circle>
+                </g>
+            </g>
+        </g>
+        <g id="state_provinces-copy-2" transform="translate(293.000000, 146.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="128" height="37"></rect>
+            </g>
+            <text id="basemap" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="39.727" y="25">basemap</tspan>
+            </text>
+            <g id="basemap" transform="translate(21.000000, 12.000000)">
+                <g id="group_icon">
+                    <rect id="Rectangle-49-copy" stroke="#CCD2CD" fill="#F7F7F7" x="0" y="0" width="11" height="9"></rect>
+                    <rect id="Rectangle-49" stroke="url(#linearGradient-1)" fill-opacity="0.8" fill="#BFC6BE" x="2" y="3" width="11" height="9"></rect>
+                    <rect id="Rectangle-49-copy" stroke="url(#linearGradient-2)" fill-opacity="0.8" fill="#77A474" x="4" y="6" width="11" height="9"></rect>
+                </g>
+            </g>
+        </g>
+        <g id="DEM-copy" transform="translate(174.000000, 379.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="76" height="37"></rect>
+            </g>
+            <text id="DEM" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="24.454" y="25">DEM</tspan>
+            </text>
+            <g id="raster_file" transform="translate(6.000000, 12.000000)">
+                <g>
+                    <path d="M0.923693564,0.619140625 L0.923693564,13.7250977 L11.7950901,13.7250977 L11.7950901,2.72125326 L10.3677577,0.619140625 L0.923693564,0.619140625 Z" id="Path-67-copy" stroke="#FFFFFF" fill="url(#linearGradient-8)"></path>
+                    <polygon id="Path-67" stroke="#4D5055" points="0.423693564 0.119140625 0.423693564 14.2250977 12.2950901 14.2250977 12.2950901 2.56754557 10.6326256 0.119140625"></polygon>
+                    <g id="reaster_icon" transform="translate(5.000000, 6.000000)">
+                        <rect id="Rectangle-49" stroke="#5D74BC" fill="#D8D8D8" x="0" y="0" width="10" height="8"></rect>
+                        <rect id="Rectangle-48" fill="#5D74BC" x="0" y="0" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy" fill="#5D74BC" x="2.5" y="2" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy-2" fill="#5D74BC" x="0" y="4" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy-3" fill="#5D74BC" x="2.5" y="6" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy" fill="#5D74BC" x="5" y="0" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy-2" fill="#5D74BC" x="7.5" y="2" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy-3" fill="#5D74BC" x="5" y="4" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy-4" fill="#5D74BC" x="7.5" y="6" width="2.5" height="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="NE1-copy" transform="translate(285.000000, 380.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="61" height="37"></rect>
+            </g>
+            <text id="NE1" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="23.688" y="24">NE1</tspan>
+            </text>
+            <g id="raster_file" transform="translate(6.000000, 11.000000)">
+                <g>
+                    <path d="M0.923693564,0.619140625 L0.923693564,13.7250977 L11.7950901,13.7250977 L11.7950901,2.72125326 L10.3677577,0.619140625 L0.923693564,0.619140625 Z" id="Path-67-copy" stroke="#FFFFFF" fill="url(#linearGradient-8)"></path>
+                    <polygon id="Path-67" stroke="#4D5055" points="0.423693564 0.119140625 0.423693564 14.2250977 12.2950901 14.2250977 12.2950901 2.56754557 10.6326256 0.119140625"></polygon>
+                    <g id="reaster_icon" transform="translate(5.000000, 6.000000)">
+                        <rect id="Rectangle-49" stroke="#5D74BC" fill="#D8D8D8" x="0" y="0" width="10" height="8"></rect>
+                        <rect id="Rectangle-48" fill="#5D74BC" x="0" y="0" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy" fill="#5D74BC" x="2.5" y="2" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy-2" fill="#5D74BC" x="0" y="4" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy-3" fill="#5D74BC" x="2.5" y="6" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy" fill="#5D74BC" x="5" y="0" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy-2" fill="#5D74BC" x="7.5" y="2" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy-3" fill="#5D74BC" x="5" y="4" width="2.5" height="2"></rect>
+                        <rect id="Rectangle-48-copy-4" fill="#5D74BC" x="7.5" y="6" width="2.5" height="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Cultural-copy" transform="translate(354.000000, 380.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="75" height="37"></rect>
+            </g>
+            <text id="Cultural" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="20.84" y="24">Cultural</tspan>
+            </text>
+            <g id="feature_file" transform="translate(4.000000, 11.000000)">
+                <g>
+                    <path d="M0.923693564,0.619140625 L0.923693564,13.7250977 L11.7950901,13.7250977 L11.7950901,2.72125326 L10.3677577,0.619140625 L0.923693564,0.619140625 Z" id="Path-67-copy" stroke="#FFFFFF" fill="url(#linearGradient-8)"></path>
+                    <polygon id="Path-67" stroke="#4D5055" points="0.423693564 0.119140625 0.423693564 14.2250977 12.2950901 14.2250977 12.2950901 2.56754557 10.6326256 0.119140625"></polygon>
+                    <g id="feature_icon" transform="translate(4.000000, 6.000000)">
+                        <rect id="Rectangle-122" stroke="#000000" fill="#FFFFFF" x="0" y="0" width="10" height="8.30769231"></rect>
+                        <path d="M9.69993832,8.47277881 L9.69993832,1.43275533 C9.56588954,1.45850888 9.41618129,1.48951428 9.25323831,1.52622817 C8.48981995,1.69823964 7.72703171,1.93508458 7.019513,2.24516967 C6.20360098,2.60276043 5.51690169,3.03484752 4.99997275,3.54298226 C4.46083296,4.07294995 4.02902962,4.81919524 3.69992657,5.72821176 C3.44196255,6.44073495 3.26186444,7.20963132 3.14715965,7.97935741 C3.12004894,8.1612837 3.0987443,8.32686582 3.08236859,8.47277881 L9.69993832,8.47277881 Z" id="Path-85" stroke="#979797" fill="#7EB5D3"></path>
+                        <rect id="Rectangle-122-copy" stroke="#5D74BC" x="0" y="0" width="10" height="8.30769231"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="workspace-ne-copy-3" transform="translate(452.000000, 122.000000)" fill="#F2F2F2" fill-opacity="0.889945652" stroke="#215F7B" stroke-dasharray="5,3" stroke-width="2">
+            <use id="box" mask="url(#mask-10)" xlink:href="#path-9"></use>
+        </g>
+        <g id="Styles" transform="translate(467.000000, 365.000000)">
+            <g id="inner-rectangle" fill="#FFFFFF" stroke="#215F7B">
+                <rect id="Rectangle-2" x="0.5" y="0.5" width="73" height="37"></rect>
+            </g>
+            <text font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="18.758" y="25">Styles</tspan>
+            </text>
+        </g>
+        <path d="M235.497348,93.5 L436.502579,93.5" id="Line-copy" stroke="#979797" stroke-linecap="square"></path>
+        <path d="M455.497348,93.5 L553.546509,93.5" id="Line-copy-2" stroke="#979797" stroke-linecap="square"></path>
+        <text id="configuration" font-family="ProximaNova-Light, Proxima Nova" font-size="12" font-weight="300" fill="#000000">
+            <tspan x="311.714" y="113">configuration</tspan>
+        </text>
+        <text id="global" font-family="ProximaNova-Light, Proxima Nova" font-size="12" font-weight="300" fill="#000000">
+            <tspan x="488.034" y="113">global</tspan>
+        </text>
+    </g>
+</svg>

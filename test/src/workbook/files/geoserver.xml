@@ -1,0 +1,5 @@
+<Context docBase="geoserver.war">
+  <Parameter name="GEOSERVER_DATA_DIR" value="C:\ProgramData\Boundless\geoserver\data" override="false"/>
+  <Parameter name="GEOSERVER_REQUIRE_FILE" value="C:\ProgramData\Boundless\geoserver\data\global.xml" override="false"/>
+  <Parameter name="GEOWEBCACHE_CACHE_DIR" value="C:\ProgramData\Boundless\geoserver\tilecache" override="false"/>
+</Context>
