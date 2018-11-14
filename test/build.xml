@@ -60,6 +60,44 @@
   <!--                                                -->
   <!-- EXECUTABLES                                    -->
   <!--                                                -->
+  <target name="pdf" depends="init" 
+    description="Generate PDF (requires pdflatex installation)">
+    <echo>Generate latex output from: ${basedir}/src</echo>
+    <exec executable="sphinx-build" failonerror="true">
+      <arg line="-D release='Not for distribution'"/>
+      <arg line="-W"/>
+      <arg line="-q"/>
+      <arg line="-b latex"/>
+      <arg line="-d ${build}/doctree"/>
+      <arg line="-A coursename='Sphinx Test'"/>
+      <arg path="${basedir}/src"/>
+      <arg path="${build}/latex/"/>
+    </exec>
+    <echo>Shrinking PDF graphics on ${build}/latex/test.tex</echo>
+    <!--
+	<replace file="${build}/latex/${pdf}.tex"
+		 token="sphinxincludegraphics{" value="sphinxincludegraphics[scale=0.5]{"
+    />-->
+    <!-- run twice in a row to get TOC, and ignore errors -->
+    <echo>Generate labels for ${pdf}.tex...</echo>
+    <exec executable="pdflatex"
+          dir="${build}/latex/"
+          failonerror="false">
+      <arg line="-interaction batchmode test.tex"/>
+    </exec>
+    <echo>Generate final ${pdf}.pdf...</echo>
+    <exec executable="pdflatex"
+          dir="${build}/latex/"
+          failonerror="false">
+      <arg line="-interaction batchmode test.tex"/>
+    </exec>
+    
+    <antcall target="open">
+        <param name="file" value="${build}/latex/test.pdf"/>
+    </antcall>
+  </target>
+  
+
 
   <!-- sphinx-build -->  
   <target name="sphinx" depends="init">
@@ -69,6 +107,7 @@
       <arg line="-W"/>
       <arg line="-b ${builder}"/>
       <arg line="-Dhtml_theme=${theme}"/>
+      <arg line="-d ${build}/doctree"/>
       <arg path="${basedir}/src"/>
       <arg path="${outdir}"/>
     </exec>

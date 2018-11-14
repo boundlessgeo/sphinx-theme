@@ -13,15 +13,30 @@ Welcome to this test of boundless sphinx themes, for more information visit our 
 
 Please note these themes include our trademarked branding materials are are not intended for general reuse by the public. Where we have built on the work of others the themes include the appropriate open source license.
 
+.. nextslide:: MIT License Themes
+
 Themes based on read the docs are distributed under MIT license:
+
+.. ifslides::
+   
+   .. literalinclude:: /../../learning_rtd_theme/LICENSE.txt
+      :language: text
+      :lines: 3
+
+.. ifnotslides::
+
+   .. literalinclude:: /../../learning_rtd_theme/LICENSE.txt
+      :language: text
+      
+.. nextslide:: BSD License Themes
 
 Themes based on hieroglyph slides are distributed under BSD style license:
 
 .. ifslides::
-   
-   .. code-block:: text
-      
-      Copyright (c) 2012-2017, Nathan Yergler
+
+   .. literalinclude:: /../../learning_slides/LICENSE.txt
+      :language: text
+      :lines: 1
 
 .. ifnotslides::
 

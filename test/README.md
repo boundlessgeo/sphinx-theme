@@ -18,7 +18,13 @@ ant slides
 ant server
 ```
 
-You can also list available build targets for more options:
+PDF output requires pdflatex:
+
+```
+ant pdf
+```
+
+For the complete list of build targets:
 
 ```
 ant -p 
