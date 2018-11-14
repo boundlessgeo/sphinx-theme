@@ -1,24 +1,16 @@
 Workbook
 ********
 
-..
-.. Use autoslide generation as a temporary measure so the build will work
-.. Addition slide directives are used to break-up long sections
-..
-
 .. slideconf::
-   :theme: learning_slides
+   :theme: slides
    :autoslides: True
 
-Workbook style guidelines and sphinx formatting examples for the creation of training materials.
+Use of ``slides`` theme.
+
+.. rst-class:: section
 
 Style Guidelines
 ================
-
-.. ifslides::
-
-   .. figure:: /img/section3.jpg
-      :class: fill
 
 .. ifnotslides::
 
@@ -177,13 +169,10 @@ For shell scripts, new lines can be escaped with a backslash character :kbd:`\\`
 
 For windows commands, characters can be escaped with a :kbd:`^` character, but it is so unusual that it is not recommended.
 
+.. rst-class:: section
+
 Sphinx Inline Directives
 ========================
-
-.. ifslides::
-
-   .. figure:: /img/section3.jpg
-      :class: fill
 
 .. ifnotslides::
    
@@ -533,11 +522,6 @@ Although we have pulled the above definitions out into a shared :file:`conf.py` 
 
 Sphinx Block Directives
 ========================
-
-.. ifslides::
-
-   .. figure:: /img/section3.jpg
-      :class: fill
 
 .. ifnotslides::
    

@@ -15,11 +15,6 @@ Sphinx Theme Test
    
    For internal testing of sphinx themes.
 
-.. slide:: Sphinx Theme Test
-   :level: 2
-   
-   Boundless Technologies
-
 .. contents toctree presented as an inline slide to reduce duplication
 
 .. slide:: Writing Guide

@@ -6,6 +6,8 @@ Welcome
    :theme: single-level
    :autoslides: True
 
+Use of ``single-level`` theme
+
 Overview
 --------
 

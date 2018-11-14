@@ -1,0 +1,26 @@
+.slides > article {
+    background-color: #f2f2f2;
+}
+
+.slides > article.level-1 {
+    color: white;
+    background-image: url("cover.png");
+    background-repeat: no-repeat;
+    background-color: #2A728E;
+}
+.slides > article.level-1 h1 {
+    color: white;
+}
+
+.slides > article.section {
+    color: white;
+    background-image:  url("backgroundblueslide.png"), url("backgroundblue.png");
+    background-repeat: no-repeat, repeat;
+    background-size: 80%, 50%;
+     background-position: center;
+    background-color: #2A728E;
+}
+
+.slides > article.section h2 {
+    color: white;
+}

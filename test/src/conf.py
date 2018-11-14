@@ -141,7 +141,7 @@ html_short_title = "Test"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-#html_static_path = ['../../../../../themes/opengeov2/static']
+html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -192,8 +192,10 @@ subtitle = 'Slide sub title'
 slide_footer = 'slide footer'
 slide_levels = 4
 slide_numbers = True
+slide_theme_options = {'custom_css': 'boundless_slides.css'}
 
-# requires instructor and slides build
+
+# requires html and slides build
 slide_link_to_html = True
 slide_link_html_to_slides = True
 slide_link_html_sections_to_slides = True
