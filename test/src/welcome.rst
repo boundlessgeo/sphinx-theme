@@ -3,10 +3,10 @@ Welcome
 =======
 
 .. slideconf::
-   :theme: single-level
+   :theme: boundless_single
    :autoslides: True
 
-Use of ``single-level`` theme
+Use of ``boundless_single`` theme.
 
 Overview
 --------
@@ -36,13 +36,13 @@ Themes based on hieroglyph slides are distributed under BSD style license:
 
 .. ifslides::
 
-   .. literalinclude:: /../../learning_slides/LICENSE.txt
+   .. literalinclude:: /../../boundless_slides/LICENSE.txt
       :language: text
       :lines: 1
 
 .. ifnotslides::
 
-   .. literalinclude:: /../../learning_slides/LICENSE.txt
+   .. literalinclude:: /../../boundless_slides/LICENSE.txt
       :language: text
 
 Before you Start

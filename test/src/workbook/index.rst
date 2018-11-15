@@ -2,7 +2,7 @@ Workbook
 ********
 
 .. slideconf::
-   :theme: slides
+   :theme: boundless_slides
    :autoslides: True
 
 Use of ``slides`` theme.

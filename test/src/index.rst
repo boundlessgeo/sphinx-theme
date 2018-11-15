@@ -12,12 +12,13 @@ Sphinx Theme Test
       
 .. slide:: Sphinx Theme Test
    :level: 1
+   :class: title-image
    
-   For internal testing of sphinx themes.
+   For internal testing of boundless sphinx themes.
 
 .. contents toctree presented as an inline slide to reduce duplication
 
-.. slide:: Writing Guide
+.. slide:: Theme Test
    :level: 3
    :inline-contents: True
    
