@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="254px" height="258px" viewBox="0 0 254 258" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>swatch</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="22" y="100" width="64" height="64"></rect>
+        <rect id="path-2" x="22" y="24" width="64" height="64"></rect>
+        <rect id="path-3" x="94" y="176" width="64" height="64"></rect>
+        <rect id="path-4" x="166" y="176" width="64" height="64"></rect>
+        <rect id="path-5" x="22" y="176" width="64" height="64"></rect>
+        <rect id="path-6" x="166" y="100" width="64" height="64"></rect>
+        <rect id="path-7" x="166" y="24" width="64" height="64"></rect>
+        <rect id="path-8" x="94" y="100" width="64" height="64"></rect>
+        <rect id="path-9" x="94" y="24" width="64" height="64"></rect>
+    </defs>
+    <g id="swatch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Swatch-Blue">
+            <use fill="#215F7B" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <rect stroke="#000000" stroke-width="1" x="22.5" y="100.5" width="63" height="63"></rect>
+        </g>
+        <g id="Swatch-Orange">
+            <use fill="#F58D50" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <rect stroke="#000000" stroke-width="1" x="22.5" y="24.5" width="63" height="63"></rect>
+        </g>
+        <g id="Swatch-Green">
+            <use fill="#BCD64C" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <rect stroke="#000000" stroke-width="1" x="94.5" y="176.5" width="63" height="63"></rect>
+        </g>
+        <g id="Swatch-White">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+            <rect stroke="#000000" stroke-width="1" x="166.5" y="176.5" width="63" height="63"></rect>
+        </g>
+        <g id="Swatch-Turquoise">
+            <use fill="#7EB5D3" fill-rule="evenodd" xlink:href="#path-5"></use>
+            <rect stroke="#000000" stroke-width="1" x="22.5" y="176.5" width="63" height="63"></rect>
+        </g>
+        <g id="Swatch-Gray">
+            <use fill="#95989B" fill-rule="evenodd" xlink:href="#path-6"></use>
+            <rect stroke="#000000" stroke-width="1" x="166.5" y="100.5" width="63" height="63"></rect>
+        </g>
+        <g id="Swatch-Dark">
+            <use fill="#4D5055" fill-rule="evenodd" xlink:href="#path-7"></use>
+            <rect stroke="#000000" stroke-width="1" x="166.5" y="24.5" width="63" height="63"></rect>
+        </g>
+        <g id="Swatch-Sea-Green">
+            <use fill="#00A78D" fill-rule="evenodd" xlink:href="#path-8"></use>
+            <rect stroke="#000000" stroke-width="1" x="94.5" y="100.5" width="63" height="63"></rect>
+        </g>
+        <g id="Swatch-Yellow">
+            <use fill="#FDCC32" fill-rule="evenodd" xlink:href="#path-9"></use>
+            <rect stroke="#000000" stroke-width="1" x="94.5" y="24.5" width="63" height="63"></rect>
+        </g>
+    </g>
+</svg>
