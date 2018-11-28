@@ -1,12 +1,24 @@
 @import url(slides.css);
 
 /** boundless_slides specific */
-.container-header
+div.container-header
 {
 	top: 1ex;
 	left: 30px;
 	font-size: 66%;
 	position: relative;
+    line-height: 60px;
+    height: 60px;
+}
+div.container-header > a.top {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.container-header > div.up {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .admonition

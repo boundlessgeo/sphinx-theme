@@ -123,11 +123,12 @@
    class='slides {% block slide_container_class %}layout-regular{% endblock %}'>
 
 <div class="container-header">
-  {% if logo and theme_logo_only %}
-    <a href="{{ pathto(master_doc) }}">
-    <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" alt="{{project}}"/>
-    </a>
-  {% endif %}  
+  {% if theme_logo %}
+    <a class="top" href="{{ pathto(master_doc) }}"><img src="{{ pathto('_static/'+theme_logo+'_mark_white.svg',1) }}" class="logo" alt="{{theme_logo}}" height=30/></a>
+  {% else %}
+    <a class="top" href="{{ pathto(master_doc) }}"><img src="{{ pathto('_static/boundless_mark_white.svg',1) }}" class="logo" alt="Boundless" height=30/></a>  
+  {% endif %}
+  <div class="up">
   {% if pagename == master_doc %}
     {{ docstitle|e }}
   {% else %}
@@ -137,6 +138,8 @@
       <a href="index.html#2">{{ docstitle|e }}</a>
     {% endif %}
   {% endif %}
+  </div>
+  
 </div>
 
 {% block body %} {% endblock %}

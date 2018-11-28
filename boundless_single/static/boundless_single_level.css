@@ -19,3 +19,141 @@
 	font-size: 66%;
 	position: relative;
 }
+
+
+@import url(slides.css);
+
+/** boundless_slides specific */
+div.container-header
+{
+	top: 1ex;
+	left: 30px;
+	font-size: 66%;
+	position: relative;
+    line-height: 60px;
+    height: 60px;
+}
+div.container-header > a.top {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.container-header > div.up {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.admonition
+{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	padding-top: 1em;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 3px;
+}
+
+.admonition-title
+{
+	font-family: "proxima-nova", helvetica, arial;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #29728c;
+	background: transparent;
+	padding-left: 10px;
+}
+
+.admonition p,
+.admonition ol
+{
+	width: 90%;
+	font-size: 0.8em;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+
+.rst-content .admonition ol.section ul.simple li { width: 90%; }
+.rst-content .warning { background-color: #ffe0e0; }
+.rst-content .warning .admonition-title { color: #dd0000; }
+
+.docutils {
+	font-size: 0.8em;
+}
+
+/** slides overrides */
+.slides > article
+{
+	background-color: #f2f2f2;
+	font-family: 'Lato','Open Sans', Arial, sans-serif;
+	
+}
+
+.slides > article
+{
+	color: rgb(102, 102, 102);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+	font-size: 1em;
+	line-height: 1.2em;
+	letter-spacing: -1px;
+}
+
+.slides > article.level-1
+{
+	color: white;
+	background-image: url("cover.png");
+	background-repeat: no-repeat;
+	background-color: #2A728E;
+}
+
+.slides > article.level-1 h1 { color: white; }
+
+.slides > article.level-1 > p > code { color: white; }
+
+/** code examples */
+code, .rst-content tt {
+    font-family: "Source Code Pro", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    }
+
+/** styles.css override */
+pre {
+	white-space: pre;
+	margin: 0;
+	padding: 12px 12px;
+	font-family: "Source Code Pro", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", monospace;
+	font-size: 0.66em;
+	line-height: 1.4em;
+	display: block;
+	overflow: auto;
+	color: #333333;
+}
+
+p {
+ margin: 0;
+ padding: 0;
+ font-size: 0.8em;
+ margin-top: 5px;
+}
+
+li {
+	font-size: 0.8em;
+}
+
+article > ul > li > p {
+	font-size: 1.0em;
+}
+
+/* zero out p surrounding caption */
+div.figure p
+{
+    margin-top: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+div.figure p.caption
+{
+    position: relative;
+    bottom: auto;
+}

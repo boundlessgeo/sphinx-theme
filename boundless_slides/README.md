@@ -2,11 +2,17 @@
 
 Slide theme extending basic for corporate look and feel.
 
+Theme options are based on {slides} theme:
+
+* custom_css
+* custom_js
+* logo: choose between boundless_learning, boundless_server, boundless_desktop
+
+## Use
+
 To add a section break using autoslides:
 
 ```
-.. rst-class:: section
-
 Section Title
 -------------
 
@@ -22,8 +28,6 @@ To add a section using slide directive:
    
    Section subtitle 
 ```
-
-The ``section`` text provides a white heading on dark background.
 
 ## Design
 
