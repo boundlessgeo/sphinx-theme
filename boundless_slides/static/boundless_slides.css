@@ -1,9 +1,59 @@
 @import url(slides.css);
 
+/** boundless_slides specific */
+.container-header
+{
+	top: 1ex;
+	left: 30px;
+	font-size: 66%;
+	position: relative;
+}
+
+.admonition
+{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	padding-top: 1em;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 3px;
+}
+
+.admonition-title
+{
+	font-family: "proxima-nova", helvetica, arial;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #29728c;
+	background: transparent;
+	padding-left: 10px;
+}
+
+.admonition p,
+.admonition ol
+{
+	width: 90%;
+	font-size: 0.8em;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+
+.rst-content .admonition ol.section ul.simple li { width: 90%; }
+.rst-content .warning { background-color: #ffe0e0; }
+.rst-content .warning .admonition-title { color: #dd0000; }
+
+.docutils {
+	font-size: 0.8em;
+}
+
+/** slides overrides */
 .slides > article
 {
 	background-color: #f2f2f2;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: 'Lato','Open Sans', Arial, sans-serif;
+	
 }
 
 .slides > article
@@ -15,7 +65,6 @@
 	letter-spacing: -1px;
 }
 
-/* title page */
 .slides > article.level-1
 {
 	color: white;
@@ -25,6 +74,7 @@
 }
 
 .slides > article.level-1 h1 { color: white; }
+
 .slides > article.level-1 > p > code { color: white; }
 
 /* section page */
@@ -54,25 +104,47 @@
 .slides > article.level-2 > code { color: white; }
 
 /** code examples */
-code, .rst-content tt { font-family: "Source Code Pro", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+code, .rst-content tt {
+    font-family: "Source Code Pro", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    }
 
-div[class^='highlight'] pre
-{
+/** styles.css override */
+pre {
 	white-space: pre;
 	margin: 0;
 	padding: 12px 12px;
-	font-family: "Source Code Pro", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-	font-size: 12px;
-	line-height: 1.5;
+	font-family: "Source Code Pro", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", monospace;
+	font-size: 0.66em;
+	line-height: 1.4em;
 	display: block;
 	overflow: auto;
 	color: #333333;
 }
 
-.container-header
+p {
+ margin: 0;
+ padding: 0;
+ font-size: 0.8em;
+ margin-top: 5px;
+}
+
+li {
+	font-size: 0.8em;
+}
+
+article > ul > li > p {
+	font-size: 1.0em;
+}
+
+/* zero out p surrounding caption */
+div.figure p
 {
-	top: 1ex;
-	left: 30px;
-	font-size: 66%;
-	position: relative;
+    margin-top: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+div.figure p.caption
+{
+    position: relative;
+    bottom: auto;
 }
