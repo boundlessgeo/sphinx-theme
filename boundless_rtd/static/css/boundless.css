@@ -55,6 +55,15 @@ footer .logo-link
 	margin-right: 5px;
 }
 
+/** Set appearance for inline code format **/
+/*.rst-content code.literal { color: Black; }*/
+.rst-content code.literal
+{
+    color: Black;
+    font-family: 'Source Code Pro', Consolas, "Courier New", monospace;
+    font-size: 100%;
+}
+
 footer .logo-link .boundless-logo
 {
 	background: url("../img/boundless-logo-32.png") no-repeat;
@@ -77,6 +86,14 @@ footer .footer-aside
 	display: inline-block;
 	float: right;
 	padding-top: 6px;
+}
+
+/*grid background for code blocks*/
+pre
+{
+    background: linear-gradient(-90deg, rgba(0, 0, 0, .01) 1px, transparent 1px), linear-gradient(rgba(0, 0, 0, .01) 1px, transparent 1px), linear-gradient(-90deg, rgba(0, 0, 0, .01) 1px, transparent 1px), linear-gradient(rgba(0, 0, 0, .01) 1px, transparent 1px), linear-gradient(transparent 3px, transparent 3px, transparent 78px, transparent 78px), linear-gradient(-90deg, transparent 1px, transparent 1px), linear-gradient(-90deg, transparent 3px, transparent 3px, transparent 78px, transparent 78px), linear-gradient(transparent 1px, transparent 1px), transparent;
+	background-size: 12px 12px, 12px 12px, 12px 12px, 12px 12px, 12px 12px, 12px 12px, 12px 12px, 12px 12px;
+	background-color: #f8f8f8;
 }
 
 div[class^="highlight"] pre
