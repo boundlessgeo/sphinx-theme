@@ -88,6 +88,12 @@ footer .footer-aside
 	padding-top: 6px;
 }
 
+/* make tables scroll on mobile devices */
+.wy-table-responsive
+{
+    -webkit-overflow-scrolling: touch;
+}
+
 /*grid background for code blocks*/
 pre
 {
@@ -96,7 +102,7 @@ pre
 	background-color: #f8f8f8;
 }
 
-div[class^="highlight"] pre
+.rst-content div[class^="highlight"] pre
 {
 	white-space: pre;
 	margin: 0;
