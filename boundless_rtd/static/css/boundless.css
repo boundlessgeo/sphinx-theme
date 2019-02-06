@@ -109,13 +109,30 @@ div[class^="highlight"] pre
 	color: #333333;
 }
 
+/* format TOC entries */
+.rst-content .toctree-wrapper
+{
+	  font-family: "Proxima Nova", "Montserrat", "Helvetica", Arial, sans-serif;
+    /*font-size: 14px;*/
+    font-weight: bold;
+}
+
+/* format captions */
+.rst-content .caption-text
+{
+	  font-family: "Proxima Nova", "Montserrat", "Helvetica", Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
 a.reference.external::after
 {
 	font-family: 'FontAwesome';
 	content: " \f08e";
 }
 
-/** override theme.css layout */
+/* override theme.css layout */
 .wy-nav-content
 {
 	max-width: unset;
@@ -133,4 +150,25 @@ a.reference.external::after
 .rst-versions a {
     color: white;
     text-decoration: none;
+}
+
+/* Override wy-nav colors to match company branding */
+.wy-side-nav-search, .wy-side-nav-search img, .wy-nav .wy-menu-vertical header, .wy-nav-top, .wy-nav-top img
+{
+	  background-color: #28728d;
+}
+
+/* center figures and captions */
+.rst-content div.figure { text-align: center; }
+
+/* make menuselection have same style as guilabel */
+.rst-content .menuselection
+{
+	  border: 1px solid #7fbbe3;
+	  background: #e7f2fa;
+	  font-size: 80%;
+	  font-weight: 700;
+	  border-radius: 4px;
+	  padding: 2.4px 6px;
+	  margin: auto 2px;
 }
