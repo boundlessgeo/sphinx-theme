@@ -759,6 +759,18 @@ The use of ``warning`` should be reserved for really common mistakes that have a
 
 .. nextslide:: Admonition
 
+Special Effects
+===============
+
+.. notslides:: We use a number of directives together to follow our writing guidelines. This section provides cut and paste examples for use when writing workbooks.
+
+   Reference:
+
+   * :sphinx:`Directives <usage/restructuredtext/basics.html#rst-directives>`
+   
+Exercises
+---------
+
 We use the generic ``admonition`` directive to isolate our exercise into boxes visually.
 
 .. code-block:: rst
@@ -819,10 +831,6 @@ We use the generic ``admonition`` directive to isolate our exercise into boxes v
          
          * For background compare OGC WMS specification with the results produced by :command:`GeoServer`.
 
-   Reference:
-
-   * :sphinx:`Directives <usage/restructuredtext/basics.html#rst-directives>`
-
 Instructor notes
 ----------------
 
@@ -867,9 +875,119 @@ To provide notes that only an instructor will see (such as an answer to an Explo
 
                The difference is the strict definition of axis order.
 
+Break slides
+------------
+
+The `rst-class` directive assigns a class to the next html element generated.
+
+.. nextslide::
+
+We use the `rst-class` to mark some slides a `break` where instructor lets the class work:
+
+.. code-block:: rst
+   :linenos:
+   
+   .. rst-class:: break
+
+   .. nextslide:: Comparing WMS Versions
+   
+   .. admonition:: Exercise WMS GetMap
+
+      Use WMS `GetMap` parameters to control styling:
+      
+      .. ifnotslides::
+      
+         .. include:: wms_getmap_exercise.txt
+
+.. nextslide::
+
+This is also used to apply `break` class to headings:
+
+.. code-block:: rst
+   :linenos:
+   
+   .. rst-class:: break
+   
+   Tomcat Performance Discussion
+   -----------------------------
+   
+   Discuss performance expectations:
+   
+   * Startup time
+   * Response 
+   * Thoughput
+
+Keeping slides simple
+---------------------
+
+Our workbooks use `hieroglyph` for slide generation.
+
+We use the `ifnotslides` directive to hide large blocks and reference links from the generated slides.
+
+.. code-block:: rst
+   :linenos:
+   
+   .. notslides:: 
+
+      Reference:
+
+      * :sphinx:`Directives <usage/restructuredtext/basics.html#rst-directives>`
+
+.. ifnotslides::
+
+   .. admonition:: Example ifnotslides directive
+   
+      Reference:
+
+      * :sphinx:`Directives <usage/restructuredtext/basics.html#rst-directives>`   
+   
+.. ifnotslides::
+
+   Reference:
+
+   * `hieroglyph <http://docs.hieroglyph.io/>`__
+
+
+Include download.txt (recommended)
+----------------------------------
+
+The `include` directive can be used to inline a file, or a few lines of a file.
+
+We use this capability to make download links easier to manage in workbooks and setup instructions (in cases where the version number changes frequently).
+
+.. code-block:: rst
+   :linenos:
+   
+   #. Download the virtual machine:
+
+     .. include:: download.txt
+        :start-line: 2
+        :end-line: 3
+
+.. ifnotslides::
+
+   .. admonition:: Example include download.txt
+   
+      #. Download the virtual machine:
+  
+        .. include:: files/download.txt
+           :start-line: 2
+           :end-line: 3
+
+.. nextslide:: 
+
+Directory structure:
+
+.. list-table::
+   :widths: 30 70
+
+   * - :file:`vm/download.txt`
+     - Download links isolated as separate file
+   * - :file:`vm/index.rst`
+     - 
+   
 Images and Graphics
 ===================
-
 
 .. ifnotslides::
    

@@ -59,3 +59,10 @@ There are blog posts provided both on the boundless website and content donated 
    .. admonition:: Instructor Notes
       
       While this document is provided as a test of theme styling please consult the writing guide for boundless server, boundless learning or boundless connect for appropriate use.
+      
+
+.. ifnotslides::
+
+   Reference:
+
+   * `hieroglyph <http://docs.hieroglyph.io/>`__

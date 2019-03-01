@@ -1,0 +1,7 @@
+Boundless Server Training VM downloads:
+
+* :egnyte-files:`BoundlessServer Training VM <dl/F1zCd2ivRR/BoundlessServer_VirtualBox_Training_1.1.1.ova_>`  (Password: `BoundlessLearning#vm`)
+* `VirtualBox <https://www.virtualbox.org/wiki/Downloads>`__
+* `Firefox <http://www.mozilla.org/en-US/firefox/new/>`__
+* `Chrome <https://www.google.com/intl/en/chrome/browser/>`__ with `XV <https://chrome.google.com/webstore/detail/xv-%E2%80%94-xml-viewer/eeocglpgjdpaefaedpblffpeebgmgddk?hl=en>`__ extension
+* `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`__ (windows only)
