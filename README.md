@@ -17,6 +17,7 @@ First generation themes fork and customize built-in sphinx themes:
 Second generation themes extend built-in sphinx themes:
 
 * ***boundless_rtd*** - extends *sphinx_rtd_theme* with boundless branding
+* ***boundless_standalone*** extends *boundless_rtd* removing the sidebar and navigation, for standalone boundless-branded pages, such as the docs.boundlessgeo.com landing page.
 * ***boundless_slides*** - extends *slides* theme with boundless branding
 * ***boundless_single*** - extends *single-level* with boundless branding
 
@@ -34,3 +35,8 @@ Test Project
 This project includes a test project as a reference for theme development:
 
 * test - offers a stress test of sphinx theming based on our writing guidelines
+
+Landing Page
+------------
+
+This project provides a landing page for docs.boundlessgeo.com, which links to downstream documentation.

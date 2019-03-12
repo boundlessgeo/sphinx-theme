@@ -1,0 +1,58 @@
+
+
+.wy-nav-content-wrap {
+  margin-left: 0px;
+  margin-top: 80px;
+}
+
+#header {
+  position: fixed;
+  height: 70px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  display: block;
+  z-index: 1000;
+  width: 100%;
+}
+#header .boundless_logo {
+  margin-top: 15px;
+  margin-left: 50px;
+  height: 40px;
+}
+
+#header .boundless_logo a {
+  display: table;
+}
+#header .boundless_logo a .text {
+  font-size: 28px;
+  color: #fcfcfc;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px
+}
+
+#header .boundless_logo a .icon {
+  background: url(../img/boundless_mark_white.svg);
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+}
+
+a.reference.external::after {
+  content: "";
+}
+
+div[role=main] {
+  max-width: 1500px;
+}
+
+div[role=main] a {
+  padding: 20px 10px;
+  width: 450px;
+  display: inline-block;
+}
+
+div[role=main] a:hover {
+  background-color: #edf0f2;
+}
