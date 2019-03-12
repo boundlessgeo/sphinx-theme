@@ -19,7 +19,7 @@
           description="Build all themes for visual comparison."/>
   
   <target name="rtd" depends="init"
-          description="Test html sphinx_rtd_theme (latested 0.41 release)">
+          description="Test html sphinx_rtd_theme (latested 0.43 release)">
     <echo>Building test for sphinx_rtd_theme...</echo>
     <antcall target="sphinx">
         <param name="tags" value="-t instructor"/>
@@ -33,7 +33,7 @@
   </target>
   
   <target name="boundless_rtd" depends="init"
-          description="Test html sphinx_rtd_theme (as used by server team)">
+          description="Test html boundless_rtd (as used by LMS)">
     <echo>Building test for boundless_rtd ...</echo>
     <antcall target="sphinx">
         <param name="tags" value="-t instructor"/>
@@ -47,7 +47,7 @@
   </target>
   
   <target name="learning" depends="init"
-          description="Test workbook with learning_rtd_theme (as used by training team)">
+          description="Test workbook with learning_rtd_theme">
     <echo>Building instructor for learning_rtd_theme...</echo>
     <antcall target="sphinx">
         <param name="tags" value="-t instructor"/>
@@ -75,7 +75,7 @@
   </target>
 
   <target name="server" depends="init"
-          description="Test html generatoin server_rtd_theme">
+          description="Test html generation server_rtd_theme">
     <echo>Building test for server_rtd_theme...</echo>
     <antcall target="sphinx">
         <param name="tags" value=""/>
