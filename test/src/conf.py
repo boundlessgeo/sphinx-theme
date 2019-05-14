@@ -28,7 +28,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Sphinx Theme Test'
-copyright = u'{} Boundless'.format(now.year)
+copyright = u'{} Planet Federal'.format(now.year)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
