@@ -5479,7 +5479,8 @@ input[type="color"]:focus::-webkit-input-placeholder,
   font-weight: bold;
 }
 .hero {
-  background-image: url('hero.png');
+  /*background-image: url('hero.png');*/
+  background-color: #009DA8;
 }
 #herotext {
   padding: 50px 0 0;
@@ -6717,12 +6718,12 @@ ol.comment-list {
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 0px;
-  background-color: #1f3c49;
+  background-color: #009DA8;
   color: #ffffff;
   font-size: 12px;
 }
 .site-footer h5 {
-  color: #808188;
+  color: #ffffff;
   margin-bottom: 15px;
   font-size: 16px;
   font-weight: 600;
@@ -6731,7 +6732,7 @@ ol.comment-list {
   color: #ffffff;
 }
 .site-footer a {
-  color: #7db5d2;
+  color: #ffffff;
 }
 .site-footer ul {
   margin: 0;
@@ -6811,7 +6812,7 @@ ol.comment-list {
   border-right: none;
 }
 .footer-sub-menu a {
-  color: #8e8f97;
+  color: #ffffff;
   padding: 0 10px;
   border-right: 1px solid #8e8f97;
 }
